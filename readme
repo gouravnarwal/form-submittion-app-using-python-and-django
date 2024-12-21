@@ -1,3 +1,4 @@
+here you can have some idea about the process of code
 #1. download django library
 #2.run command in terminal
    a.to run server=python manage.py runserver
