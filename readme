@@ -1,0 +1,20 @@
+#1. download django library
+#2.run command in terminal
+   a.to run server=python manage.py runserver
+   b.create new application=python manage.py startapp app_name
+   c.create new project=django-admin startproject project_name
+   d.making and applying changes=python manage.py makemigrations
+     python manage.py migrate
+
+#3. then go to settings and add the name of application you created
+#4.go to urls file and add the urls to run
+#5.create a templates directory to add html templates in it
+#6.i created a forms python file which is connected to html file by the name of forms ,this returns the text entered in those forms
+#7.in models file the programing for data to add in sql file is written
+  first_name
+    last_name
+    email
+    date
+    occupation
+    #these represents the name of columns of the table
+#the main functioning of the job_application starts from views file
